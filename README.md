@@ -1,6 +1,4 @@
-# Inferring lung cancer under limited learning
-data through gate-based and annealing-based
-quantum techniques
+# Inferring lung cancer under limited learning data through gate-based and annealing-based quantum techniques
 
 ## Overview
 
