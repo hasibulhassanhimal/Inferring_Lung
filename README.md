@@ -24,6 +24,8 @@ and 91.90% in a real D-Wave quantum computer. The findings of this work show a
 path for applying quantum computing to support healthcare decision-making when
 data availability is often limited.
 
+Discover Quantum Science
+https://doi.org/10.1007/s44464-026-00038-4
 ---
 
 ## Project Structure
