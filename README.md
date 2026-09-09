@@ -2,11 +2,27 @@
 
 ## Overview
 
-**Inferring Lung** is a quantum machine learning research project that investigates the application of quantum computing and quantum-inspired optimization methods for lung disease classification.
-
-The project compares multiple quantum platforms, simulators, and real quantum hardware implementations using Support Vector Machine (SVM)-based classification approaches.
-
-The experiments evaluate quantum kernel methods, optimization techniques, and hybrid quantum-classical workflows across different quantum computing architectures.
+Early diagnosis of lung cancer and reliable decision support are crucial steps since
+this is a leading cause of cancer-related mortality worldwide. This research aims
+to build an approach using quantum-assisted capacity that can infer lung cancer
+from a limited amount of patient data. To do so, this research starts with a dataset
+containing 309 patient records, which is augmented and balanced to 540 patient
+records. This dataset has 16 attributes of symptom and risk-based lung cancer
+factors. Following preprocessing on the dataset, this study uses a quantum method
+named quadratic unconstrained binary optimization (QUBO) to select the relevant
+features of the dataset. Three classifiers, quantum support vector machine (QSVM),
+quantum k-nearest neighbor (QKNN), and quantum boosting (QBoost), are then
+trained and tested on the processed dataset to identify lung cancer. These classifiers
+are examined using different frameworks of circuit and annealing-based quantum
+techniques. Only 108 balance samples are used during training the classifiers
+to ensure the learning capability of the quantum method from limited data. To
+safeguard against overfitting and underfitting due to a lack of data, the remaining
+432 samples are evaluated to estimate prediction error. All experiments are done
+using cross-validation. The final results demonstrate that the QSVM by D-Wave
+framework achieves the best performance with an accuracy of 94.31% in simulation
+and 91.90% in a real D-Wave quantum computer. The findings of this work show a
+path for applying quantum computing to support healthcare decision-making when
+data availability is often limited.
 
 ---
 
